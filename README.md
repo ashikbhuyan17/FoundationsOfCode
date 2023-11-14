@@ -53,7 +53,7 @@ alt='Ashik Bhuyan'
 #### 01. Add Two Numbers
 
 ```
-Input: l1 = 5, l2 = 10
+Input: num1 = 5, num2 = 10
 Output: 15
 Explanation: 342 + 465 = 807
 
