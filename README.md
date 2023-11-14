@@ -1,4 +1,4 @@
-<img src='./images/logo.png' alt='FoundationsOfCode' id='header'/>
+<img src='./images/programming.jpg' alt='FoundationsOfCode' id='header'/>
 
 <h1 align="center" >Foundations Of Code</h1>
 
