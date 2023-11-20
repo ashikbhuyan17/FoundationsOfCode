@@ -64,55 +64,12 @@ Complexity Analysis
 
 <details><summary style="cursor:pointer">Solution</summary>
 
-```js
-let num1 = 5;
-let num2 = 10;
-
-let sum = num1 + num2;
-console.log(sum); // Output: 15
-```  
-```ts
-let num1: number = 5;
-let num2: number = 10;
-
-let sum: number = num1 + num2;
-console.log(sum); // Output: 15
-```  
-
-</details>
-
-#### 02. Swap two Numbers
-
+```py
+num1 = 5;
+num2 = 10;
+sum = num1 + num2;
+print(sum); // Output: 15
 ```
-Input: num1 = 5, num2 = 10
-Output: num1 = 10, num2 = 5
-
-Complexity Analysis
-    Time Complexity: O(1)
-    Auxiliary Space: O(1)
-```
-
-<details><summary style="cursor:pointer">Solution</summary>
-
-```js
-let firstVariable = 10;
-let secondVariable = 20
-let temp;
-temp = firstVariable
-firstVariable = secondVariable
-secondVariable = temp
-console.log("🚀 ~ file: After swapping", firstVariable, secondVariable)
-
-// Swapping without using a third variable
-let firstVariable = 10;
-let secondVariable = 20
-firstVariable = firstVariable + secondVariable
-secondVariable = firstVariable-secondVariable
-firstVariable =firstVariable-secondVariable
-console.log("🚀 ~ file: After swapping", firstVariable, secondVariable)
-```  
-
-
 </details>
 
 ---
