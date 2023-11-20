@@ -2,7 +2,6 @@
 
 <h1 align="center" >Foundations Of Code</h1>
 
-
 <div align="center" >
 
 <a href="mailto:ashikbhuyan.swe.diu@gmail.com">
@@ -49,13 +48,12 @@ alt='Ashik Bhuyan'
 
 <!-- <h1 align="center" >Array CRUD(create,read,update,delete) Operation </h1> -->
 
-
-#### 01. Add Two Numbers
+#### 01. Print Hello World
 
 ```
-Input: num1 = 5, num2 = 10
-Output: 15
-Explanation: 342 + 465 = 807
+Input: Hello World
+Output: Hello World
+Explanation: Hello World is a string that is excituated into console.log();
 
 Complexity Analysis
     Time Complexity: O(1)
@@ -65,27 +63,16 @@ Complexity Analysis
 <details><summary style="cursor:pointer">Solution</summary>
 
 ```js
-let num1 = 5;
-let num2 = 10;
-
-let sum = num1 + num2;
-console.log(sum); // Output: 15
-```  
-```ts
-let num1: number = 5;
-let num2: number = 10;
-
-let sum: number = num1 + num2;
-console.log(sum); // Output: 15
-```  
+console.log("Hello World"); // Hello World
+```
 
 </details>
 
-#### 02. Swap two Numbers
+#### 02. Print your name
 
 ```
-Input: num1 = 5, num2 = 10
-Output: num1 = 10, num2 = 5
+Input: myName = "Sadril"
+Output: Sadril
 
 Complexity Analysis
     Time Complexity: O(1)
@@ -95,31 +82,14 @@ Complexity Analysis
 <details><summary style="cursor:pointer">Solution</summary>
 
 ```js
-let firstVariable = 10;
-let secondVariable = 20
-let temp;
-temp = firstVariable
-firstVariable = secondVariable
-secondVariable = temp
-console.log("🚀 ~ file: After swapping", firstVariable, secondVariable)
-
-// Swapping without using a third variable
-let firstVariable = 10;
-let secondVariable = 20
-firstVariable = firstVariable + secondVariable
-secondVariable = firstVariable-secondVariable
-firstVariable =firstVariable-secondVariable
-console.log("🚀 ~ file: After swapping", firstVariable, secondVariable)
-```  
-
+const myName = "Sadril";
+console.log(myName);
+```
 
 </details>
 
 ---
+
 **[⬆ Back to Top](#header)**
 
-
 </details>
-
-
-
