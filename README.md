@@ -88,6 +88,20 @@ console.log(myName);
 
 </details>
 
+#### 02. Print an integer entered by the user
+
+```
+Input: const intNumber = prompt("Enter an integer number")
+Output: user inputed value
+```
+
+<details><summary style="cursor:pointer">Solution</summary>
+
+```js
+const intNumber = prompt("Enter an integer number");
+console.log(intNumber); // integer value has given by user
+```
+
 ---
 
 **[⬆ Back to Top](#header)**
