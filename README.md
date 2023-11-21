@@ -5,43 +5,43 @@
 
 <div align="center" >
 
-<a href="mailto:ashikbhuyan.swe.diu@gmail.com">
+<a href="mailto:mdmithu.learner@gmail.com">
 <img
 src='https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white'
-alt='Ashik Bhuyan'
+alt='Mithu'
 />
 </a>
 
-<a href="tel:+8801793605043">
+<a href="tel:+8801324203138">
 <img
 src='https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white'
-alt='Ashik Bhuyan'
+alt='Mithu'
 />
 </a>
-<a href="https://portfolio-70e38.web.app/" target="_blank">
+<a href="#" target="_blank">
 <img
 src='https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white'
-alt='Ashik Bhuyan'
+alt='Mithu'
 />
 </a>
-<a href="https://www.facebook.com/ashikbhuyan17" target="_blank">
+<a href="https://www.facebook.com/" target="_blank">
 <img
 src='https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white'
-alt='Ashik Bhuyan'
+alt='Mithu'
 />
 </a>
 
-<a href="https://www.linkedin.com/in/ashik17/" target="_blank">
+<a href="https://www.linkedin.com/in/mithucloud007/" target="_blank">
 <img
 src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'
-alt='Ashik Bhuyan'
+alt='Mithu'
 />
 </a>
 
-<a href="https://github.com/ashikbhuyan17" target="_blank">
+<a href="https://github.com/MithuCloud007" target="_blank">
 <img
 src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'
-alt='Ashik Bhuyan'
+alt='Mithu'
 />
 </a>
 
@@ -64,19 +64,12 @@ Complexity Analysis
 
 <details><summary style="cursor:pointer">Solution</summary>
 
-```js
-let num1 = 5;
-let num2 = 10;
+```python
+num1 = int(input("Enter 1st number : "))
+num2 = int(input("Enter 2nd number : "))
 
-let sum = num1 + num2;
-console.log(sum); // Output: 15
-```  
-```ts
-let num1: number = 5;
-let num2: number = 10;
-
-let sum: number = num1 + num2;
-console.log(sum); // Output: 15
+add = num1 + num2
+print(add)
 ```  
 
 </details>
@@ -84,8 +77,8 @@ console.log(sum); // Output: 15
 #### 02. Swap two Numbers
 
 ```
-Input: num1 = 5, num2 = 10
-Output: num1 = 10, num2 = 5
+Input: number1 = 10, number2 = 20
+Output: number1 = 20, number2 = 10
 
 Complexity Analysis
     Time Complexity: O(1)
@@ -94,26 +87,73 @@ Complexity Analysis
 
 <details><summary style="cursor:pointer">Solution</summary>
 
-```js
-let firstVariable = 10;
-let secondVariable = 20
-let temp;
-temp = firstVariable
-firstVariable = secondVariable
-secondVariable = temp
-console.log("🚀 ~ file: After swapping", firstVariable, secondVariable)
+```python
+number1 = 10
+number2 = 20
 
-// Swapping without using a third variable
-let firstVariable = 10;
-let secondVariable = 20
-firstVariable = firstVariable + secondVariable
-secondVariable = firstVariable-secondVariable
-firstVariable =firstVariable-secondVariable
-console.log("🚀 ~ file: After swapping", firstVariable, secondVariable)
+number1, number2 = number2, number1
+print(number1)
+print(number2)
+
+
 ```  
 
 
 </details>
+
+#### 03. Check Prime Number 
+
+```
+Input: number = 10
+Output: It Is Prime Number
+
+Complexity Analysis
+    Time Complexity: O(n)
+    Auxiliary Space: O(1)
+```
+
+<details><summary style="cursor:pointer">Solution</summary>
+
+```python
+num=int(input('Enter a Number: '))
+count=0
+for i in range(2,num):
+    if (num%i==0):
+        count+=1
+    break
+if (count==0):
+    print("It Is Prime Number")
+else:
+    print("It is NOT prime number") 
+
+
+```  
+
+
+</details>
+
+#### 04. Calculate Fahrenheit to Celsius
+
+```
+Input: Fahrenfeit = 40.0
+Output: Celsius = Temperature in Celsius is: 4.44
+
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+
+<details><summary style="cursor:pointer">Solution</summary>
+
+
+```python
+
+Fahrenheit= 40.0
+Celsius = ((Fahrenheit-32.0)*5)/9.0
+print(f"Temperature in Celsius is: {Celsius:.2f}")
+
+
+```  
 
 ---
 **[⬆ Back to Top](#header)**
